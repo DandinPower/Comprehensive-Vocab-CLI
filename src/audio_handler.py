@@ -13,6 +13,10 @@ class AudioHandler:
         assert os.path.exists(AUDIO_FOLDER)
         tts.save(f'{AUDIO_FOLDER}/{word}.mp3')
 
+    def get_path(self, word:str):
+        assert os.path.exists(f"{AUDIO_FOLDER}/{word}.mp3")
+        return f"{AUDIO_FOLDER}/{word}.mp3"
+
     def play(self, word:str):
         assert os.path.exists(f"{AUDIO_FOLDER}/{word}.mp3")
         song = AudioSegment.from_mp3(f"{AUDIO_FOLDER}/{word}.mp3")

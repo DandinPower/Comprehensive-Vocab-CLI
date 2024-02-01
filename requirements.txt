@@ -4,3 +4,4 @@ python-dotenv
 rich
 pydub
 gTTS
+gradio
