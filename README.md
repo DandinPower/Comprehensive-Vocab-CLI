@@ -21,6 +21,13 @@ This project requires Python and pip. Once you have these installed, you can ins
 pip install -r requirements.txt
 ```
 
+It also requires Google Gemini API key to explain the words. Once you have the API key, you can set it as an environment variable:
+
+```sh
+touch .env
+echo "GOOGLE_API_KEY=your_api_key" > .env
+```
+
 ## Usage
 To use the Comprehensive-Vocab-CLI, follow these steps:
 
