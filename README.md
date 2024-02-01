@@ -32,7 +32,7 @@ echo "GOOGLE_API_KEY=your_api_key" > .env
 To use the Comprehensive-Vocab-CLI, follow these steps:
 
 ```
-python main.py
+python cli_main.py
 ```
 
 You will be asked to choose an action:
