@@ -4,3 +4,4 @@ __pycache__
 *.md
 !apple.md
 !README.md
+*.env
