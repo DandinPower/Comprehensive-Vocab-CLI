@@ -1,0 +1,6 @@
+__pycache__
+*.mp3
+!apple.mp3
+*.md
+!apple.md
+!README.md
