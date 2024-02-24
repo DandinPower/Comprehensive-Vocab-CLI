@@ -38,3 +38,9 @@ python cli_main.py
 You will be asked to choose an action:
 1. Enter 1 to explain a word. You will be prompted to enter the word. If the word has been searched before, the cached explanation will be displayed. Otherwise, the tool will fetch the explanation and cache it for future use. After the explanation is displayed, you will be asked if you want to play the word's pronunciation.
 2. Enter 2 to exit the program.
+
+To use the Comprehensive-Vocab-GUI, follow these steps:
+
+```
+python gui_main.py
+```

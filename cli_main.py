@@ -1,7 +1,7 @@
-from vocab_app import VocabApp
+from src.cli.cli_controller import CliController
 
 def main():
-    app = VocabApp()
+    app = CliController()
     app.run()
     
 if __name__ == "__main__":

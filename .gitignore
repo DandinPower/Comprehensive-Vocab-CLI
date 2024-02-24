@@ -1,7 +1,9 @@
 __pycache__
+flagged
 *.mp3
-!apple.mp3
 *.md
+!apple.mp3
 !apple.md
 !README.md
+venv
 *.env

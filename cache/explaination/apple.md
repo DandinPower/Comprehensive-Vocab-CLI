@@ -1,25 +1,20 @@
-**Term:** Apple
+**Term:** Apple 蘋果
 
 **Synonym:**
 
-- Pippin
-- Granny Smith
-- Macintosh
-- Honeycrisp
-- Gala
+- Pippin 蘋果點心
+- Granny Smith 青蘋果
+- Macintosh 麥金塔
+- Honeycrisp 蜜蘋果
+- Gala 嘉樂蘋果
 
 **English Parts of Speech:**
 
-1. Noun: A round fruit with a sweet or tart taste, typically red, green, or yellow in color, and containing seeds.
-2. Verb: To gather or pick apples.
+1. apple (Noun) 蘋果: A round fruit with a sweet or tart taste, typically red, green, or yellow in color, and containing seeds.
 
 **Other Parts of Speech:**
 
-1. Adjective: Of, relating to, or made from apples.
-
-**繁體中文翻譯:**
-
-1. 名詞：蘋果
+1. None 
 
 **Illustrative Sentences:**
 
