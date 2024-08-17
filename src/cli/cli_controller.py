@@ -1,7 +1,7 @@
 from ..utils.cache_manager import CacheManager
 from ..utils.explaination_handler import ExplainationHandler
 from ..utils.audio_handler import AudioHandler
-from ..utils.llm_handler import GeminiProHandler
+from ..utils.llm_handler import GeminiProHandler, GPT4oMiniHandler
 from ..utils.prompt_formator import DefaultPromptFormator
 from .md_viewer import MarkdownViewer
 from .audio_player import AudioPlayer
@@ -10,7 +10,7 @@ class CliController:
     def __init__(self):
         self.cache_manager = CacheManager()
         explaination_handler = ExplainationHandler()
-        explaination_handler.set_llm_handler(GeminiProHandler())
+        explaination_handler.set_llm_handler(GPT4oMiniHandler())
         explaination_handler.set_prompt_formator(DefaultPromptFormator())
         self.cache_manager.add_content_handler(explaination_handler)
         self.cache_manager.add_content_handler(AudioHandler())

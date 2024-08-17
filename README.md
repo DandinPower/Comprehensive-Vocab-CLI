@@ -21,11 +21,11 @@ This project requires Python and pip. Once you have these installed, you can ins
 pip install -r requirements.txt
 ```
 
-It also requires Google Gemini API key to explain the words. Once you have the API key, you can set it as an environment variable:
+It also requires OpenAI API key to explain the words. Once you have the API key, you can set it as an environment variable:
 
 ```sh
 touch .env
-echo "GOOGLE_API_KEY=your_api_key" > .env
+echo "OPENAI_API_KEY=your_api_key" > .env
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ You will be asked to choose an action:
 1. Enter 1 to explain a word. You will be prompted to enter the word. If the word has been searched before, the cached explanation will be displayed. Otherwise, the tool will fetch the explanation and cache it for future use. After the explanation is displayed, you will be asked if you want to play the word's pronunciation.
 2. Enter 2 to exit the program.
 
-To use the Comprehensive-Vocab-GUI, follow these steps:
+To use the Comprehensive-Vocab-GUI, follow these steps (not support now):
 
 ```
 python gui_main.py

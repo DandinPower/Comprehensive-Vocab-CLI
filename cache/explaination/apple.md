@@ -16,6 +16,10 @@
 
 1. None 
 
+**Related Parts of Speech:**
+
+1. apple (Verb) 蘋果化: To produce or promote the growth of apple trees or apple-related products. (This usage is very rare.)
+
 **Illustrative Sentences:**
 
 1. The apple fell from the tree and landed on my head. 蘋果從樹上掉下來砸到我的頭。

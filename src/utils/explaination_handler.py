@@ -17,7 +17,7 @@ class ExplainationHandler(ContentHandler):
         self.prompt_formator = prompt_formator
 
     def save_content(self, vocab:str, explaination:str) -> None:
-        with open(f"{EXPLAINATION_FLOLDER}/{vocab}.md", "w") as file:
+        with open(f"{EXPLAINATION_FLOLDER}/{vocab}.md", "w", encoding="utf-8") as file:
             file.write(explaination)
 
     def assert_init(self) -> bool:
@@ -41,5 +41,5 @@ class ExplainationHandler(ContentHandler):
     def get_content(self, vocab:str) -> str:
         assert self.assert_init()
         assert self.assert_exist(vocab)
-        with open(f"{EXPLAINATION_FLOLDER}/{vocab}.md", "r") as file:
+        with open(f"{EXPLAINATION_FLOLDER}/{vocab}.md", "r", encoding="utf-8") as file:
             return file.read()
