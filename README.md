@@ -44,3 +44,7 @@ To use the Comprehensive-Vocab-GUI, follow these steps (not support now):
 ```
 python gui_main.py
 ```
+
+## Cache
+
+You can go to `cache` folder to see the previous asked vocabulary result in `md` and `mp3` format.
